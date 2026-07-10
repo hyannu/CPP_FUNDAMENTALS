@@ -4,6 +4,7 @@ int main() {
 
        // Declare a variable to store the grade
     char grade;
+     // Ask the user to enter a grade
     cout << "Enter your Grade:" << endl;
     cin >> grade;
 
