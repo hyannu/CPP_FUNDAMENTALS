@@ -22,6 +22,8 @@ int main() {
         default:
          cout << " your marks will be in  range 0 to 60" << endl;
     }
+
+    // Display a thank you message
     cout << "Than you " << endl;
  return 0;
     }
