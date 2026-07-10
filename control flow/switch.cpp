@@ -8,6 +8,7 @@ int main() {
     cout << "Enter your Grade:" << endl;
     cin >> grade;
 
+        // Check the grade using a switch statement
     switch (grade){
         case 'A':cout << " your marks will be in  range 90 to 100" << endl;
         break;
