@@ -24,22 +24,26 @@ int main() {
     }
 
     // Display a thank you message
-    cout << "Than you " << endl;
- return 0;
+    cout << "Than you! " << endl;
+ return 0;    // End of the program
     }
 
 
-// DUSRA METHIODS
+// Second METHIODS
 
 
     #include<iostream>
 using namespace std;
 int main() {
 
+     // Declare a variable to store the grade
     char grade;
+
+    // Ask the user to enter a grade
     cout << "Enter your Grade:" << endl;
     cin >> grade;
 
+     // Check the grade using a switch statement
         if(grade =='A'){
         cout << " your marks will be in  range 90 to 100" << endl;
     }else if(grade == 'B'){
@@ -48,9 +52,12 @@ int main() {
         cout << " your marks will be in  range 70 to 80" << endl;
     }else if(grade == 'D'){
         cout << " your marks will be in  range 60 to 70" << endl;
-    }else{
+    }else{       
+           // If the grade is not A, B, C, or D
         cout << " your marks will be in  range 0 to 60" << endl;
     }
+
+    // Display a thank you message
         cout << "Than you " << endl;
-        return 0;
+        return 0;  // End of the program
     }
