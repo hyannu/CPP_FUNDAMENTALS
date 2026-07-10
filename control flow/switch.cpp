@@ -18,7 +18,9 @@ int main() {
           break;
         case 'D': cout << " your marks will be in  range 60 to 70" << endl;
           break;
-        default: cout << " your marks will be in  range 0 to 60" << endl;
+        // If the grade is not A, B, C, or D
+        default:
+         cout << " your marks will be in  range 0 to 60" << endl;
     }
     cout << "Than you " << endl;
  return 0;
