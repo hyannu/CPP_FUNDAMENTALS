@@ -97,3 +97,15 @@
 //     }
 //     return 0;
 // }
+
+
+// QUESTION NUMBER 5
+// PRINT 7 table 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     for(int i=1; i<=10; i=i+1){
+//         cout<<i <<"*"<<7 <<"==" << i*7  <<endl;
+//     }
+//     return 0;
+// }
