@@ -109,3 +109,15 @@
 //     }
 //     return 0;
 // }
+
+// while loop using
+#include<iostream>
+using namespace std;
+int main(){
+    int i=1;
+    while(i<=10){
+        cout<<i <<"*" <<7 <<"=" << i*7 <<endl;
+        i=i+1;
+    }
+    return 0;
+}
