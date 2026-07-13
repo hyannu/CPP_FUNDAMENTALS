@@ -21,7 +21,7 @@ using namespace std;
     int celcius=(far-32)*5/9;
     return celcius;
  }
-
+// "Add convertIntoUpperCase function"
  char convertIntoUpperCase(char ch) {
     char answer = ch-'a' + 'A';
     return answer;
