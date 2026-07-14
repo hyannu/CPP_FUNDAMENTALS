@@ -27,16 +27,16 @@ using namespace std;
     return answer;
  }
 
- Add function call to getMultiplication and display result
- int main() {
-  function call 
-int multiplicationAnswer = getMultiplication(5,4,3);
-cout <<multiplicationAnswer <<endl;
+//  Add function call to getMultiplication and display result
+//  int main() {
+//   function call 
+// int multiplicationAnswer = getMultiplication(5,4,3);
+// cout <<multiplicationAnswer <<endl;
 
 
-printNameTenTimes();
-int m=5;
-printMultiples(m);
+// printNameTenTimes();
+// int m=5;
+// printMultiples(m);
 
 
     // int far =32;
