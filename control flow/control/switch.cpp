@@ -1,25 +1,25 @@
 #include <iostream>
 using namespace std;
 int main() {
-    // char grade;
-    // cout <<"Enter your grade:" <<endl;
-    // cin >>grade;
+    char grade;
+    cout <<"Enter your grade:" <<endl;
+    cin >>grade;
 
-    // if(grade == 'A') {
-    //     cout <<"your marks will be a range of 90 to 100" <<endl;
-    // }
-    // else if(grade =='B'){
-    //     cout <<"your marks will be a range of 80 to 90" <<endl; ;
-    // }
-    // else if(grade =='C'){
-    //     cout <<"your marks will be a range of 70 to 80" <<endl;
-    // }
-    // else if(grade =='D'){
-    //     cout <<"your marks will be a range of 60 to 70" <<endl;
-    // }
-    // else {
-    //     cout <<"your marks will be a range of 0 to 60" <<endl;
-    // }
+    if(grade == 'A') {
+        cout <<"your marks will be a range of 90 to 100" <<endl;
+    }
+    else if(grade =='B'){
+        cout <<"your marks will be a range of 80 to 90" <<endl; ;
+    }
+    else if(grade =='C'){
+        cout <<"your marks will be a range of 70 to 80" <<endl;
+    }
+    else if(grade =='D'){
+        cout <<"your marks will be a range of 60 to 70" <<endl;
+    }
+    else {
+        cout <<"your marks will be a range of 0 to 60" <<endl;
+    }
  
     // implement user input for day switch-case
     int day;
